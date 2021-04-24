@@ -1,4 +1,4 @@
-﻿using UnityEditor;
+using UnityEditor;
 using UnityEngine;
 
 namespace EditorWindowTools
@@ -84,12 +84,12 @@ namespace EditorWindowTools
             {
                 EditorApplication.ExecuteMenuItem( "Window/AI/Navigation" );
             }
+            GUILayout.Space(-5);
             // [Lighting] -----
             if(GUILayout.Button(EditorGUIUtility.IconContent("Lightmapping"), GUILayout.Width(28), GUILayout.Height(20)))
             {
                 EditorApplication.ExecuteMenuItem( "Window/Rendering/Lighting Settings" );
             }
-            GUILayout.Space(-5);
 
 
             // Setting 系 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
