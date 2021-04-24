@@ -12,7 +12,7 @@ namespace EditorWindowTools
         private Vector2 scrollPos = Vector2.zero;
 
         // ◆ ウィンドウの登録 =============================================================================================================
-        [MenuItem("Window/Library/ShortcutWindow")]
+        [MenuItem("Window/ShortcutWindow")]
         public static void Open()
         {
             EditorWindow window = GetWindow(typeof(EditorShortcutWindow), false, "Shortcut");
